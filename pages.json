@@ -1,0 +1,50 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/littleBallPaper/littleBallPaper",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},{
+			"path": "pages/anonsWall/anonsWall",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},{
+			"path": "pages/loveWall/loveWall",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar" : {
+	    // "selectedColor" : "red",
+	    "list" : [
+				{
+				    "pagePath" : "pages/anonsWall/anonsWall",
+				    "iconPath" : "static/tabBar/an.png",
+				    "selectedIconPath" : "static/tabBar/an.png",
+				    "text" : "匿名墙"
+				},
+				{
+						"pagePath" : "pages/littleBallPaper/littleBallPaper",
+						"iconPath" : "static/tabBar/paper.png",
+						"selectedIconPath" : "static/tabBar/paper.png",
+						"text" : "小纸团"
+				},
+				{
+						"pagePath" : "pages/loveWall/loveWall",
+						"iconPath" : "static/tabBar/love.png",
+						"selectedIconPath" : "static/tabBar/love.png",
+						"text" : "表白墙"
+				}
+	        
+	    ]
+	}
+}
